@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="app">
+      <img class='AuctionJournal-AUI3TY8E4EIB' src='https://auctionjournal.com/_next/image?url=%2Fimages%2Flogos%2Flogo1.png&w=640&q=75'>
       <ImageUploader onUpload={handleUpload} />
       <ImageGallery images={images} />
     </div>
